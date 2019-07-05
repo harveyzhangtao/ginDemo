@@ -1,0 +1,26 @@
+package: ginDemo
+import:
+- package: github.com/gin-gonic/gin
+  version: ^1.4.0
+- package: github.com/gin-contrib/sse
+  version: ^0.1.0
+- package: github.com/go-ini/ini
+  version: ^1.42.0
+- package: github.com/Unknwon/com
+  version: ^2.0.0
+- package: github.com/jinzhu/gorm
+  version: ^1.9.10
+- package: github.com/go-sql-driver/mysql
+  version: ^1.4.1
+- package: github.com/astaxie/beego
+  version: ^1.11.1
+  subpackages:
+  - validation
+- package: github.com/appleboy/gin-jwt
+  version: ^2.6.2
+  subpackages:
+  - v2
+- package: github.com/dgrijalva/jwt-go
+  version: ^3.2.0
+- package: github.com/lestrrat/go-file-rotatelogs
+- package: github.com/fvbock/endless

@@ -1,0 +1,18 @@
+time="2019-07-05 14:01:31.051" level=info msg="Server err: net.Listen error: listen tcp :8001: bind: address already in use"
+time="2019-07-05 14:01:46.326" level=info msg="Server err: net.Listen error: listen tcp :8001: bind: address already in use"
+time="2019-07-05 14:07:53.380" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 14:07:53.379" level=info msg="Actual pid is 51142"
+time="2019-07-05 14:13:05.740" level=info msg="Server err: net.Listen error: listen tcp :8001: bind: address already in use"
+time="2019-07-05 14:13:45.396" level=info msg="Actual pid is 51170"
+time="2019-07-05 14:15:16.335" level=info msg="Actual pid is 51215"
+time="2019-07-05 14:15:52.269" level=info msg="Actual pid is 51219"
+time="2019-07-05 14:17:01.524" level=info msg="Actual pid is 51244"
+time="2019-07-05 14:17:01.524" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 14:24:04.931" level=info msg="Actual pid is 51287"
+time="2019-07-05 14:24:35.309" level=info msg="Actual pid is 51310"
+time="2019-07-05 14:24:35.309" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 14:25:12.220" level=error msg=test
+time="2019-07-05 14:25:58.899" level=info msg="Actual pid is 51337"
+time="2019-07-05 14:25:58.900" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 14:26:08.984" level=error msg=test
+time="2019-07-05 14:36:20.132" level=error msg=test
