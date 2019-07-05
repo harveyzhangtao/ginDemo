@@ -1,0 +1,3 @@
+time="2019-07-05 15:25:15.264" level=info msg="Server err: net.Listen error: listen tcp :8001: bind: address already in use"
+time="2019-07-05 15:26:04.487" level=info msg="Actual pid is 51551"
+time="2019-07-05 15:26:04.487" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
