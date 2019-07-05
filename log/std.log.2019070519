@@ -1,0 +1,24 @@
+time="2019-07-05 19:03:26.466" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:03:29.506" level=info msg="Actual pid is 54827"
+time="2019-07-05 19:04:23.284" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:04:26.293" level=info msg="Actual pid is 54856"
+time="2019-07-05 19:05:29.713" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:05:32.650" level=info msg="Actual pid is 54880"
+time="2019-07-05 19:06:27.082" level=error msg=test
+time="2019-07-05 19:07:42.350" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:07:45.395" level=info msg="Actual pid is 54903"
+time="2019-07-05 19:07:51.684" level=error msg=test
+time="2019-07-05 19:08:23.529" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:08:26.239" level=info msg="Actual pid is 54924"
+time="2019-07-05 19:08:30.775" level=error msg=test
+time="2019-07-05 19:08:52.957" level=error msg=test
+time="2019-07-05 19:09:09.760" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:09:12.242" level=info msg="Actual pid is 54946"
+time="2019-07-05 19:09:20.264" level=error msg=test
+time="2019-07-05 19:10:04.417" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:10:06.765" level=info msg="Actual pid is 54969"
+time="2019-07-05 19:10:10.555" level=error msg=test
+time="2019-07-05 19:10:38.435" level=error msg=test
+time="2019-07-05 19:11:10.427" level=info msg="Server err: accept tcp [::]:8001: use of closed network connection"
+time="2019-07-05 19:11:12.863" level=info msg="Actual pid is 54994"
+time="2019-07-05 19:11:15.708" level=error msg=test

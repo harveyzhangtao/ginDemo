@@ -8,6 +8,9 @@ import (
 
 	"ginDemo/pkg/setting"
 	"ginDemo/routers"
+
+	"ginDemo/pkg/redis"
+
 )
 
 func main() {
@@ -25,4 +28,5 @@ func main() {
 	if err != nil {
 		logging.Log.Printf("Server err: %v", err)
 	}
+	loadredis.ReturnRedisClient()
 }

@@ -24,3 +24,5 @@ import:
   version: ^3.2.0
 - package: github.com/lestrrat/go-file-rotatelogs
 - package: github.com/fvbock/endless
+- package: github.com/go-redis/redis
+  version: ^6.15.3

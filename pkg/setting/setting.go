@@ -5,7 +5,6 @@ import (
 	"time"
 
 	"github.com/go-ini/ini"
-	"fmt"
 )
 
 var (
@@ -23,6 +22,13 @@ var (
 	PageSize int
 	JwtSecret string
 )
+var RedisSeeting = & RedisConf{}
+
+type RedisConf struct {
+	RedisAddress string
+	RedisPassword string
+	RedisDB int
+}
 
 func init()  {
 	var err error
@@ -31,7 +37,6 @@ func init()  {
 		log.Fatal(2, "Fail to parse 'conf/app.ini': %v", err)
 	}
 	ENV = AppFile.Section("").Key("ENV").MustString("dev")
-	fmt.Println(ENV,11112333444555)
 
 	Cfg, err = ini.Load("conf/"+ENV+".ini")
 	if err != nil {
@@ -42,6 +47,7 @@ func init()  {
 	LoadBase()
 	LoadServer()
 	LoadApp()
+	LoadRedis()
 }
 
 
@@ -70,4 +76,14 @@ func LoadApp() {
 
 	JwtSecret = sec.Key("JWT_SECRET").MustString("!@)*#)!@U#@*!@!)")
 	PageSize = sec.Key("PAGE_SIZE").MustInt(10)
+}
+
+func LoadRedis()  {
+	sec, err := Cfg.GetSection("redis")
+	if err != nil {
+		log.Fatal(2, "Fail to get section 'redis': %v", err)
+	}
+	RedisSeeting.RedisAddress = sec.Key("RedisAddress").String()
+	RedisSeeting.RedisPassword = sec.Key("RedisPassword").String()
+	RedisSeeting.RedisDB = sec.Key("RedisAddress").MustInt(0)
 }

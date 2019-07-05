@@ -1,5 +1,5 @@
-hash: eaf6a2cbfe127b40e5f3bf7c1c573d937c7436fb20a8953c4a7b1b7519ce7cac
-updated: 2019-07-05T13:53:14.443143+08:00
+hash: 6736336ec0136d96c1b546321ae170ec40a63db55336b91472a5672426135deb
+updated: 2019-07-05T17:41:06.421232+08:00
 imports:
 - name: github.com/appleboy/gin-jwt
   version: 8135d5fe23da9021d7dceeee4d60e41b3a66a46c
@@ -23,6 +23,8 @@ imports:
   - render
 - name: github.com/go-ini/ini
   version: c85607071cf08ca1adaf48319cd1aa322e81d8c1
+- name: github.com/go-redis/redis
+  version: 75795aa4236dc7341eefac3bbe945e68c99ef9df
 - name: github.com/go-sql-driver/mysql
   version: 72cd26f257d44c1114970e19afddcd812016007e
 - name: github.com/golang/protobuf
