@@ -13,9 +13,9 @@ var once sync.Once
 func init() {
 	once.Do(func() {
 		Client = redis.NewClient(&redis.Options{
-			Addr:     setting.RedisSeeting.RedisAddress,
-			Password: setting.RedisSeeting.RedisPassword, // no password set
-			DB:       setting.RedisSeeting.RedisDB,       // use default DB
+			Addr:     setting.RedisSetting.RedisAddress,
+			Password: setting.RedisSetting.RedisPassword, // no password set
+			DB:       setting.RedisSetting.RedisDB,       // use default DB
 			//PoolSize:5,   //默认10*cpu数
 		})
 	})
